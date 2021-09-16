@@ -1,0 +1,23 @@
+[
+  { 
+    "name": "Dapo Bello",
+    "email": "dapo@bello.com",
+    "phone": "000-123-4567",
+    "birthdate": "12/16/1998",
+    "id": 1
+  },
+  { 
+    "name": "My dog",
+    "email": "dog@dogs.com",
+    "phone": "000-123-4567",
+    "birthdate": "5/15/2010",
+    "id": 2
+  },
+  { 
+    "name": "My cat",
+    "email": "cat@cats.net",
+    "phone": "000-123-4567",
+    "birthdate": "7/024/2017",
+    "id": 3
+  }
+]
