@@ -1,26 +1,4 @@
-/*import Head from 'next/head';
-import Link from 'next/link';
 
-export default function Layout ({children, home}){
-  return{
-    <div>
-    <Head>
-    <title>Next.js app</title>
-    </Head>
-    <header>
-    </header>
-    <main>{children}</main>
-    {!home && (
-      <Link href="/">
-      <a class="btn btn-primary mt-3"> Back to Home </a>
-      </Link>
-    
-    )
-    }
-    </div>
-  );
-}
-*/
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -39,7 +17,7 @@ export default function Layout( { children, home } ) {
       <main>{children}</main>
       {!home && (
           <Link href="/">
-            <a class="btn btn-primary mt-3">← Back </a>
+            <a className="btn btn-primary mt-3">← Back </a>
           </Link>
         )
       }
