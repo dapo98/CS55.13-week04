@@ -30,7 +30,7 @@ export default function Entry({ itemData }) {
         <div className="card-body">
           <h5 className="card-title">{itemData.post_title}</h5>
           <h6 className="card-subtitle mb-2 text-muted">{itemData.user_login}</h6>
-          <div classname="card-text" dangerouslySetInnerHTML={{__html: itemData.post_content}} /> </div>
+          <div className="card-text" dangerouslySetInnerHTML={{__html: itemData.post_content}} />
         </div>
       </article>
       {}
